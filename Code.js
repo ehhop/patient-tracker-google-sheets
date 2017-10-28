@@ -46,7 +46,7 @@ function onEdit(){ //this gets triggered every time the sheet gets edited
         timesheet.getRange(row,(column-offset-1)*multiple+2).setValue(time); // put in time in stop cell
       };
     };
-    if(setting==""){ //clear timers if the cell in the edited cell in the patient tracker is cleared
+    if(setting==""){ //clear timers if the edited cell in the patient tracker is cleared
       timesheet.getRange(row,(column-offset-1)*multiple+1).clear();
       timesheet.getRange(row,(column-offset-1)*multiple+2).clear();
     };
