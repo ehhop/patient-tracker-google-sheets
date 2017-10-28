@@ -9,7 +9,7 @@
 // Usage: This runs in the background in a Google Sheets document 
 // to track changes to the patient tracker call sheet automatically.
 //
-// You will also need to set up the trigger to fire in Google Sheets by clicking
+// If not working: you may also need to set up the trigger to fire in Google Sheets by clicking
 // "Edit" > "Current project's triggers" > onEdit as in this image: https://imgur.com/x1H7uMf
 //
 // Public template (view only, no PHI):
